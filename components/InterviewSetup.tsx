@@ -18,9 +18,9 @@ const InterviewSetup: React.FC<InterviewSetupProps> = ({ onStart }) => {
 
   return (
     <div className="max-w-md mx-auto p-8 bg-slate-900 border border-slate-700 rounded-2xl shadow-2xl">
-      <h2 className="text-3xl font-bold mb-6 text-emerald-400">Mock Interview Setup</h2>
+      <h2 className="text-3xl font-bold mb-6 text-emerald-400">Mock Interview </h2>
       <p className="text-slate-400 mb-8">Set your parameters and prepare to face the AI Interviewer.</p>
-      
+
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
           <label className="block text-sm font-medium text-slate-300 mb-2">Job Role</label>
@@ -55,7 +55,7 @@ const InterviewSetup: React.FC<InterviewSetupProps> = ({ onStart }) => {
             required
           />
         </div>
-        
+
         <button
           type="submit"
           className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-4 rounded-lg transition transform hover:scale-[1.02] active:scale-95 flex items-center justify-center gap-3 shadow-lg shadow-emerald-900/20"
